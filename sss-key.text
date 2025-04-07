@@ -1,8 +1,0 @@
-ssh-keygen -t rsa -C "gitName"
-ssh-add ~/.ssh/gitName
-
-/home/shah-ali/.ssh/gitName
-
-// if config doesn't exists, then run the following command
-nano ~/.ssh/config       
-
