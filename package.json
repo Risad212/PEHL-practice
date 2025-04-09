@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "next lint",
+    "lint": "eslint .",
     "lint:fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
