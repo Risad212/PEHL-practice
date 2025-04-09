@@ -27,8 +27,9 @@
     "prettier": "^3.5.3"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "eslint --quiet --fix . --ext .js,.jsx,.ts,.tsx "
-    ]
-  }
+  "**/*.{js,jsx,ts,tsx}": [
+    "eslint --fix",
+    "prettier --write"
+  ]
+}
 }
