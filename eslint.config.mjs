@@ -14,9 +14,10 @@ export default defineConfig([
     plugins: { js },
     extends: ['js/recommended'],
     rules: {
-      'no-console': 'warn', // Show a warning for console.log
-      'eqeqeq': 'error',     // Enforce === and !==
-      'no-unused-vars': 'warn'
+      'no-console': 'warn',     // Warn for console.log
+      'eqeqeq': 'error',        // Enforce === and !==
+      'no-unused-vars': 'warn',
+      'quotes': ['error', 'single']
     },
   },
 ]);
