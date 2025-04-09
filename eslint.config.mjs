@@ -17,7 +17,6 @@ export default defineConfig([
       'no-console': 'warn', // Warn for console.log
       eqeqeq: 'error', // Enforce === and !==
       'no-unused-vars': 'warn',
-      quotes: ['error', 'single'],
     },
   },
 ]);
